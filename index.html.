@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>मंडी भाव</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background: #2e7d32;
+      color: white;
+      padding: 15px;
+      font-size: 24px;
+    }
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background: white;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+    }
+    th {
+      background: #4caf50;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background: #f2f2f2;
+    }
+    footer {
+      margin-top: 20px;
+      padding: 10px;
+      background: #eee;
+    }
+  </style>
+</head>
+<body>
+
+  <header>🌾 मंडी भाव - किसानों के लिए</header>
+
+  <table>
+    <tr>
+      <th>फसल</th>
+      <th>आज का भाव (₹/क्विंटल)</th>
+    </tr>
+    <tr>
+      <td>गेहूँ</td>
+      <td>2100</td>
+    </tr>
+    <tr>
+      <td>चना</td>
+      <td>5500</td>
+    </tr>
+    <tr>
+      <td>सोयाबीन</td>
+      <td>4800</td>
+    </tr>
+    <tr>
+      <td>प्याज़</td>
+      <td>1600</td>
+    </tr>
+  </table>
+
+  <footer>
+    © 2025 | मंडल द्वारा बनाया गया
+  </footer>
+
+</body>
+</html>
